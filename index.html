@@ -1,4 +1,3 @@
-<!-- UBICACION: C:\Users\Carolina\OneDrive\Desktop\STTP-archery -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,18 +10,16 @@
 
 <body>
 
-    <header>
+    <header class="main-header">
         <div class="logo">
             <img src="IMAGES/sttp-logo-blue.png" alt="Archery Academy Logo">
         </div>
-        <nav>
-            <ul>
-                <li><a href="#index">Home</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#instructors">Instructors</a></li>
-                <li><a href="#our-lessons">Our Lessons</a></li>
-                <li><a href="#upcoming-events">Upcoming Events</a></li>
-            </ul>
+        <nav class="nav-links">
+            <a href="#index">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#instructors">Instructors</a>
+            <a href="#our-lessons">Our Lessons</a>
+            <a href="#upcoming-events">Upcoming Events</a>
         </nav>
 
     </header>
@@ -30,56 +27,78 @@
     <main>
         <section id="hero">
             <div class="hero-content">
-                <p>Welecome to straight to the point archery.</p>
-                <h1>Discover the thrill of archery!</h1>
-                <p>Discover the excitement of archery — a sport that blends focus, skill, and fun...</p>
+                <p class="description">Welecome to straight to the point archery.</p>
+                <h1>Discover the thrill of archery!</h1><br>
+                <p>Discover the excitement of archery — a sport that blends focus, skill, and fun. Whether you're
+                    a
+                    beginner or a seasoned
+                    archer, our center welcomes you to aim higher and enjoy the journey.</p><br>
                 <a href="#contact" class="btn">Contact Us</a>
             </div>
             <div class="hero-image">
-                <img src="hero-placeholder.jpg" alt="Person practicing archery">
+                <img src="images/hero-placeholder.png" alt="Person practicing archery">
             </div>
         </section>
 
         <section id="lessons">
             <header class="section-intro">
                 <h2>Our Lessons</h2>
-                <p>Explore the different ways to experience archery with us. From first-time beginners to seasoned
-                    archers, kids' programs,
+                <p>Explore the different ways to experience archery with us. From first‑time beginners to seasoned
+                    archers, kids’ programs,
                     and team‑building sessions for companies, we have a class designed for every level and audience.</p>
             </header>
 
             <div class="lesson-grid">
                 <article class="lesson-card">
-                    <img src="lesson-1.jpg" alt="Begginers lessons">
+                    <img src="images/practice.jpg" alt="Beginners lessons">
                     <h3>Beginners lessons</h3>
-                    <p id="description">LEARN THE BASICS AND BUILD A STRONG FOUNDATION.</p>
-                    <p>Perfect for those new to archery, our beginner classes cover the fundamentals of stance, grip,
-                        and shooting technique.</p>
+                    <p class="description">Learn the basics and build a strong foundation. </p><br>
+                    <small>Perfect for newcomers, our beginner sessions cover safety, posture, and foundational
+                        techniques so you can start your
+                        archery journey with trust and excitement.</small>
                 </article>
-            </div>
-            <div class="lesson-grid">
+
                 <article class="lesson-card">
-                    <img src="lesson-2.jpg" alt="Experienced archery training">
-                    <h3>Experienced archery training</h3>
-                    <p class="description">SHARPEN YOUR SKILLS AND REFINE YOUR TECHNIQUE.</p>
-                    <p>These sessions focus on precision, consistency, and advanced drills to help you reach new
-                        performance levels.</p>
+                    <img src="images/kids-4.jpg" alt="Kids archery programs">
+                    <h3>Kids' Archery Programs</h3>
+                    <p class="description">Fun, safe, and inspiring. </p><br>
+                    <small>Designed especially for young archers, these programs combine playful learning with certified
+                        guidance, ensuring
+                        children enjoy archery while staying safe and motivated.</small>
                 </article>
+
+                <article class="lesson-card">
+                    <img src="images/blanco.jpg" alt="Experienced archery training">
+                    <h3>Experienced Archers</h3>
+                    <p class="description">Fun, safe, and inspiring. </p><br>
+                    <small>For seasoned archers, our advanced training focuses on precision, consistency, and
+                        performance. Elevate your practice
+                        with expert coaching and tailored drills.</small>
+                </article>
+
+                <article class="lesson-card">
+                    <img src="images/group.jpg" alt="Corporate archery events">
+                    <h3>Corporate & Team Events</h3>
+                    <p class="description"> Teamwork through archery.</p>
+                    <small>Build teamwork and communication skills while enjoying the thrill of archery. Perfect for
+                        company retreats and team-building activities.</small>
+                </article>
+
+                <!-- aquí puedes seguir agregando más cards -->
             </div>
         </section>
+
 
         <section id="mission">
             <h2>Our mission</h2>
-            <blockquote cite="academy-values">
-                “We believe archery is more than hitting a target — it's about focus, discipline, and confidence. With
-                expert instruction
-                and a welcoming environment, we empower every archer to grow, connect, and discover a lifelong passion
-                for the sport.”
-            </blockquote>
+            <blockquote>
+                "We believe archery belongs to everyone — a place where focus, fun, and community meet."</blockquote>
+            <a href="#non-discriminatory-policy" class="btn">Non-discriminatory policy</a>
+
         </section>
 
         <section id="instructors">
-            <header>
+            <header class="section-intro">
                 <h2>Our instructors</h2>
                 <p>Passionate, certified, and experienced, our instructors guide every archer with patience and
                     expertise. They ensure safe
@@ -88,69 +107,76 @@
             </header>
 
             <div class="instructor-grid">
-                <figure>
-                    <img src="images/coach-luis.png" alt="Coach Luis">
-                    <figcaption>
-                        <strong>Coach Luis</strong>
-                        <span>Competitive training</span>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="images/coach-ana.png" alt="Coach Ana">
-                    <figcaption>
-                        <strong>Coach Ana</strong>
-                        <span>Kids' programs</span>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="images/coach-daniel.png" alt="Coach Daniel">
-                    <figcaption>
-                        <strong>Coach Daniel</strong>
-                        <span>Corporate & Team Events</span>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="images/coach-ron.png" alt="Coach Ron">
-                    <figcaption>
-                        <strong>Coach Ron</strong>
-                        <span>Beginner Classes</span>
-                    </figcaption>
-                </figure>
+                <article class="instructor-card">
+                    <h3 hidden>Coach Luis</h3>
+                    <img src="images/coach-luis.png" alt="Coach Luis' portrait">
+                    <h3>Coach Luis</h3>
+                    <span class="description">Competitive training</span>
+                </article>
+                <article class="instructor-card">
+                    <h3 hidden>Coach Ana</h3>
+                    <img src="images/coach-ana.png" alt="Coach Ana's portrait">
+                    <h3>Coach Ana</h3>
+                    <span class="description">Kids' programs</span>
+                </article>
+
+                <article class="instructor-card">
+                    <h3 hidden>Coach Daniel</h3>
+                    <img src="images/coach-daniel.png" alt="Coach Daniel's portrait">
+                    <h3>Coach Daniel</h3>
+                    <span class="description">Corporate & Team Events</span>
+                </article>
+
+                <article class="instructor-card">
+                    <h3 hidden>Coach Ron</h3>
+                    <img src="images/coach-ron.png" alt="Coach Ron's portrait">
+                    <h3>Coach Ron</h3>
+                    <span class="description">Beginner Classes</span>
+                </article>
+            </div>
+        </section>
+        <section id="safety-first">
+            <div class="section-intro">
+                <h2>Safety first </h2>
+                <p>At Straight to the Point Archery, safety is our priority. We follow strict rules and clear guidance
+                    so
+                    everyone can
+                    enjoy the sport with confidence.</p>
+
+            </div>
+            <div class="safety-first-content">
+                <img class="safety-image" src="images/safety-arm.png" alt="Archery safety gear">
+                <ul class="safety-certifications">
+                    <li>
+                        <div>
+                            <img src="safety-icon.png" alt="Safety icon">
+                            <h4>Safety Certification</h4>
+                            <small>Our academy follows recognized archery safety standards...</small>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="protective-gear.png" alt="Protective gear icon">
+                            <strong>Protective Gear</strong>
+                            <p>Arm guards, finger tabs, and other safety equipment...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="supervision-icon.png" alt="Supervision icon">
+                            <strong>Structured supervision</strong>
+                            <p>Beginners, kids, and groups receive extra monitoring...</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
 
-        <div class="safety-content">
-            <div class="safety-image">
-                <img src="safety-placeholder.jpg" alt="Archery safety gear">
-            </div>
-            <ul class="safety-certifications">
-                <li>
-                    <div>
-                        <img src="safety-icon.png" alt="Safety icon">
-                        <strong>Safety Certification</strong>
-                        <p>Our academy follows recognized archery safety standards...</p>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="protective-gear.png" alt="Protective gear icon">
-                        <strong>Protective Gear</strong>
-                        <p>Arm guards, finger tabs, and other safety equipment...</p>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="supervision-icon.png" alt="Supervision icon">
-                        <strong>Structured supervision</strong>
-                        <p>Beginners, kids, and groups receive extra monitoring...</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
         <section id="testimonials">
-            <h2>Testimony</h2>
-            <h3></h3>
+            <div class="section-intro">
+                <h2>Testimony</h2>
+                <h3 hidden>Testimonials</h3>
+            </div>
             <div class="testimonial-grid">
                 <article class="testimonial">
                     <h4>Carl</h4>
